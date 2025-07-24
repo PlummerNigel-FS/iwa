@@ -1,0 +1,31 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25rem;
+}
+h1 {
+  font-weight: normal;
+  color: firebrick;
+  background-color: black;
+  margin: 2rem;
+  padding: 1rem;
+  border: 4px solid crimson;
+}
+a {
+  color: olive;
+  text-decoration: none;
+}
+a:hover {
+  color: darkgoldenrod;
+}
+p {
+  border: 4px solid darkorange;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#wrapper {
+  border: 4px solid darkgreen;
+  width: 90%;
+  margin: auto;
+}

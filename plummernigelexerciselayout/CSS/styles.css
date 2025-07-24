@@ -1,0 +1,205 @@
+/* === Global Body Styles === */
+body {
+  /* Sets the default font family: Arial preferred, Helvetica fallback */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Sets base font size */
+  font-size: 1rem;
+
+  /* Improves readability with proper spacing between lines */
+  line-height: 1.6;
+
+  /* Text color: dark gray for readability */
+  color: #333;
+
+  /* Light gray background for entire page */
+  background-color: #f9f9f9;
+
+  /* Aligns all body text to the left by default */
+  text-align: left;
+
+  /* Adds subtle shadow to text */
+  text-shadow: 1px 1px 1px #ccc;
+
+  /* Removes default margin added by browsers */
+  margin: 0;
+
+  /* Removes default padding */
+  padding: 0;
+}
+
+/* === Wrapper for Page Content === */
+main {
+  /* Restricts content width to 960px for readability */
+  max-width: 960px;
+
+  /* Horizontally centers the content */
+  margin: 0 auto;
+
+  /* Adds internal space around content */
+  padding: 1rem;
+
+  /* Sets white background behind content */
+  background-color: #ffffff;
+
+  /* Adds a thin border around content block */
+  border: 1px solid #ddd;
+
+  /* Slightly rounds the corners */
+  border-radius: 8px;
+}
+
+/* === Headings === */
+h1,
+h2,
+h3,
+h4 {
+  /* Sets dark blue color for all headings */
+  color: #2c3e50;
+}
+
+h1 {
+  /* Centers the main heading */
+  text-align: center;
+
+  /* Enlarges the main heading text */
+  font-size: 2rem;
+}
+
+/* === Navigation Styles === */
+nav ul {
+  /* Removes bullet points from nav list */
+  list-style: none;
+
+  /* Eliminates default padding */
+  padding: 0;
+
+  /* Enables Flexbox layout for horizontal nav */
+  display: flex;
+
+  /* Horizontally centers nav items */
+  justify-content: center;
+
+  /* Adds spacing between links */
+  gap: 1rem;
+}
+
+nav a {
+  /* Removes underline from links */
+  text-decoration: none;
+
+  /* Applies blue color to links */
+  color: #3498db;
+}
+
+nav a:hover {
+  /* Applies teal color when hovered */
+  color: #1abc9c;
+
+  /* Underlines link on hover for emphasis */
+  text-decoration: underline;
+}
+
+/* === Image Styles === */
+img {
+  /* Treats image as block-level element */
+  display: block;
+
+  /* Makes image scale with screen width */
+  max-width: 100%;
+
+  /* Maintains image aspect ratio */
+  height: auto;
+
+  /* Centers image horizontally */
+  margin: 0 auto;
+
+  /* Softly rounds image corners */
+  border-radius: 8px;
+}
+
+/* === List Indentation === */
+ul {
+  /* Adds left indent to unordered lists */
+  padding-left: 1.5rem;
+}
+
+/* === Footer Styles === */
+footer {
+  /* Centers footer content */
+  text-align: center;
+
+  /* Adds internal spacing */
+  padding: 1rem;
+
+  /* Slightly reduces font size for subtle appearance */
+  font-size: 0.9rem;
+}
+
+/* === Flexbox Layout Section === */
+
+/* Container for Flex Items */
+.flex-container {
+  /* Enables Flexbox */
+  display: flex;
+
+  /* Allows items to wrap if needed */
+  flex-wrap: wrap;
+
+  /* Adds space between flex items */
+  gap: 1rem;
+
+  /* Centers items horizontally in the container */
+  justify-content: center;
+
+  /* Aligns items to the top */
+  align-items: flex-start;
+
+  /* Adds spacing above this section */
+  margin-top: 1.5rem;
+}
+
+/* Each Card or Box Inside the Flex Container */
+.flex-item {
+  /* Allows flexible width with minimum of 250px */
+  flex: 1 1 250px;
+
+  /* Adds padding inside the item */
+  padding: 1rem;
+
+  /* Thin border around each item */
+  border: 1px solid #ccc;
+
+  /* Rounded corners */
+  border-radius: 6px;
+
+  /* Light blue background */
+  background-color: #eef;
+}
+
+/* === Flex Container Example 2: Navigation Menu === */
+nav ul {
+  /* Removes default bullet styles */
+  list-style: none;
+
+  /* Removes default padding */
+  padding: 0;
+
+  /* Enables Flexbox layout */
+  display: flex;
+
+  /* Lays out items in a row */
+  flex-direction: row;
+
+  /* Allows wrapping if needed on smaller screens */
+  flex-wrap: wrap;
+
+  /* Adds space between nav items */
+  gap: 0.75rem;
+
+  /* Horizontally centers nav items */
+  justify-content: center;
+
+  /* Vertically aligns nav items to center */
+  align-items: center;
+}
